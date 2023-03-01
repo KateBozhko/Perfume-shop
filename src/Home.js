@@ -1,6 +1,7 @@
 import {data} from "./data";
 import Buttons from "./Buttons";
 import {useState} from "react";
+import Pictures from "./Pictures";
 
 
 function Home() {
@@ -20,6 +21,7 @@ setPerfume(arr)
         <div className="title">
           <h1>PERFUME SHOP</h1>
         </div>
+        <Pictures/>
         <div className="title">
         <Buttons filtration={changePerfume} genderFiltration={changeGender}/>
         </div>

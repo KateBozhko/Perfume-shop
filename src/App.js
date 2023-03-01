@@ -18,9 +18,10 @@ function App() {
   return(
 <Router>
 <nav>
-<Link to="/">Shop</Link>
-<Link to="/about">About us</Link>
-<Link to="/contact">Our contacts</Link>
+  <img className="logo" src="https://img.freepik.com/free-vector/luxurious-floral-perfume-logo-template_23-2148466518.jpg?w=740&t=st=1677668216~exp=1677668816~hmac=0a0bc31621873d76e0ab31c1ec14a7c1ca3f8f853dc6d0fc75b5d6132a8dc3df" width="100px"/>
+<Link to="/" className="link">Shop</Link>
+<Link to="/about" className="link">About us</Link>
+<Link to="/contact" className="link">Our contacts</Link>
 </nav>
 <Routes>
 <Route path="/" element={<Home/>}/>
