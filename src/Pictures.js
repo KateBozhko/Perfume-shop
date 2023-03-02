@@ -34,7 +34,7 @@ function Pictures() {
 
 <div className="item">
     <img src="https://icons8.com/preloaders/preloaders/392/Euro%20gold%20coin.gif"  alt="icon"width="50px" height="50px"/>
-    <p>low prices</p>
+    <p>Low prices</p>
 </div>
 
 

@@ -33,7 +33,7 @@ setPerfume(arr)
           <div className="block">
           <h2>{name} (for {gender})</h2>
           <p>Smell: {smell}</p>
-          <img src={image} alt="perfume" width="300px" height="250px"/>
+          <img className="scale" src={image} alt="perfume" width="300px" height="250px"/>
           <div>
           <p>Description: {show ? description : description.substring(0,40) + "..."}
           <button onClick={() => setShow(!show)}>{show ? "Less" : "More"}</button></p>

@@ -117,7 +117,7 @@ export const data = [
     gender: "Men",
     smell: "wood",
     image: "https://img.freepik.com/free-photo/perfume-fragrance-bottle-fluffy-blanket_53876-134085.jpg?w=360&t=st=1675854248~exp=1675854848~hmac=76d39ee0393f28bf55c883ef66ecda4d0d3cbeb75d5268a2be5673ed7d57cb35",
-    description: "Древесные ноты сплетаются с восточной загадочностью, порождая ольфакторную зависимость, требуя наслаждаться чарующим благоуханием вновь и вновь. Сладкий ананас наполняет солнечным настроением в верхних нотах. Фруктовое вступление тесно сплетается с ошеломительной пудровостью ириса и свежестью пряного имбиря в обрамлении амброво-согревающего и хвойного древесного аккорда кипариса.",
+    description: "The aromatic composition opens with bright fresh wood notes dominated by the bitter notes of sunny lemon. Light accents of pink pepper give the opening chord a special brightness and depth of sound. Fragrant lavender in the heart of the perfume unexpectedly combines with deep and almost mystical smoky aromatic incense, creating the perfect combination of bright freshness and magnetic power.",
     name: "Robin Hood",
     volume: 100,
     price: 130
