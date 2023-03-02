@@ -11,7 +11,11 @@
 }
 .block {
   margin: 20px;
+  width: 400px;
+  margin-left: 30px;
 }
+
+
 
 nav {
   background-color: black;
@@ -51,9 +55,27 @@ transition-duration: .8s;
 position: relative;
 
 }
+label {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 70px;
+  letter-spacing: 5px;
+}
+li {
+  list-style-type: none;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+li:last-child {
+  margin-top: 20px;
+}
+
+
 .textOne {
   position: absolute;
-  color: aqua;
+  color: goldenrod;
   top: 20px;
   left: 20px;
 }
@@ -71,4 +93,51 @@ position: relative;
 .item {
   display: flex;
 flex-direction: row;
+}
+.par {
+  margin-left: 30px;
+}
+.footer {
+  height: 250px;
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?w=1060&t=st=1677756782~exp=1677757382~hmac=22a5817953ef8659c12a936dd8dc60d577f67505cabb5fb8d80be40c864540c9");
+display: flex;
+justify-content: space-around;
+
+}
+.foot {
+  color:  goldenrod;
+}
+.pic {
+  background-color: white;
+  border-radius: 50%;
+  padding: 7px;
+}
+.text {
+  margin-top: 10px;
+}
+.paragr {
+  width: 40%;
+margin-left: 70px;
+}
+.detail {
+  margin-left: 250px;
+}
+.info{
+  background-color: #333;
+  margin-top: 50px;
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.information {
+  background-color: #333;
+  margin-top: 50px;
+  height: 300px;
+}
+.text_info {
+  color: goldenrod;
+  margin: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
 }

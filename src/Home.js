@@ -2,11 +2,12 @@ import {data} from "./data";
 import Buttons from "./Buttons";
 import {useState} from "react";
 import Pictures from "./Pictures";
+import Footer from "./Footer";
 
 
 function Home() {
 const [perfume, setPerfume] = useState(data);
-  
+  const [show, setShow] = useState(false);
   
 const changePerfume = (smell) => {
 const newArray = data.filter(element => element.smell === smell);
@@ -28,19 +29,23 @@ setPerfume(arr)
         <div className="container">
       {perfume.map((element => {
         const {id, gender, smell, image, description, name, volume, price} = element;
-        return ( <div>
+        return ( <div className="main">
           <div className="block">
           <h2>{name} (for {gender})</h2>
           <p>Smell: {smell}</p>
           <img src={image} alt="perfume" width="300px" height="250px"/>
-          <p>Description: {description.substring(0,50) + "..."}
-          <button>Show more</button></p>
+          <div>
+          <p>Description: {show ? description : description.substring(0,40) + "..."}
+          <button onClick={() => setShow(!show)}>{show ? "Less" : "More"}</button></p>
           </div>
-            <p>Volume: {volume}</p>
-            <p>Price: $ {price}</p>
+          </div>
+            <p className="par">Volume: {volume}</p>
+            <p className="par">Price: $ {price}</p>
         </div>)
       }))}
       </div>
+<Footer/>
+
       </div>
     )
   }
