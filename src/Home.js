@@ -28,7 +28,7 @@ setPerfume(arr)
         </div>
         <div className="container">
       {perfume.map((element => {
-        const {id, gender, smell, image, description, name, volume, price} = element;
+        const {gender, smell, image, description, name, volume, price} = element;
         return ( <div className="main">
           <div className="block">
           <h2>{name} (for {gender})</h2>

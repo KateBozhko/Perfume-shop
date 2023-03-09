@@ -4,7 +4,7 @@ function Pictures() {
         <div>
         <div className="wrapper">
     <div className="one">
-    <img className="pictureOne" src="https://img.freepik.com/free-photo/shoes-belt-perfume-telephone-wooden-surface_8353-10514.jpg?w=1060&t=st=1677743471~exp=1677744071~hmac=027c0855b91e3c3a533e272c9e2166ebd6dbe799a1d781718b9172dcc3937bf1" height="500px" width="550px"/>
+    <img className="pictureOne" src="https://img.freepik.com/free-photo/shoes-belt-perfume-telephone-wooden-surface_8353-10514.jpg?w=1060&t=st=1677743471~exp=1677744071~hmac=027c0855b91e3c3a533e272c9e2166ebd6dbe799a1d781718b9172dcc3937bf1" alt="man" height="500px" width="550px"/>
     <label className="textOne">FOR MEN</label>
     <ul className="textOne">
         <li><img className="crown" src="https://img.icons8.com/emoji/1x/crown-emoji.png" alt="crown" width="20px"/>Quality</li>
@@ -12,7 +12,7 @@ function Pictures() {
     </ul>
     </div>
     <div className="one">
-    <img className="pictureOne" src="https://img.freepik.com/free-photo/portrait-young-beautiful-lady-with-wavy-hair-red-lips-holding-cosmetic-bottle-hand-while-dreamily-looking-camera-black-background_574295-3207.jpg?w=1060&t=st=1677670302~exp=1677670902~hmac=33c6e4e9429a7816c4a7b53b4d07a5a7fea519cd96c147e803934b78ac2a00d4" height="500px" width="650px"/>
+    <img className="pictureOne" src="https://img.freepik.com/free-photo/portrait-young-beautiful-lady-with-wavy-hair-red-lips-holding-cosmetic-bottle-hand-while-dreamily-looking-camera-black-background_574295-3207.jpg?w=1060&t=st=1677670302~exp=1677670902~hmac=33c6e4e9429a7816c4a7b53b4d07a5a7fea519cd96c147e803934b78ac2a00d4" alt="woman" height="500px" width="650px"/>
     <label className="textOne">FOR WOMEN</label>
     <ul className="textOne">
         <li><img src="https://img.icons8.com/emoji/1x/crown-emoji.png" alt="crown" width="20px"/>Large selection</li>
